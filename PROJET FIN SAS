@@ -1,0 +1,51 @@
+#include<stdio.h>
+#include<string.h>
+typedef struct 
+{
+    char titre[100];
+    char description[200];
+    char date_echance[10];//format annee,mois,jour
+    char priorite[10];//high ou low
+}Tache;
+
+
+
+//afficher menu 
+void afficherMenu() { 
+        printf("\n------------------Menu-----------------\n");
+        printf("1. Ajouter une tâche\n");
+        printf("2. Afficherla liste des tâches\n");
+        printf("3. Modifier une tâche\n");
+        printf("4. Supprimer une tâche\n");
+        printf("5. Filtrer les tâches par priorité\n");
+        printf("0.Quitter: ");
+}
+
+//afficher tableau 
+void afficherTache(Tache taches) {
+
+}
+// ajouter tache 
+void ajouterTache(Tache taches[]) {
+
+}
+// modifier tache 
+void modifierTache(Tache taches[50])  {
+
+}
+// supprimer tache 
+void supprimerTache(Tache taches[50]) {
+
+}
+
+int main(){
+    
+    Tache taches[50];
+
+    do {
+        afficherTache();
+
+    }
+
+
+}
